@@ -39,7 +39,7 @@ const DefaultItemRenderer = ({
       tabIndex={-1}
       disabled={disabled}
     />
-    <span>{option.label}</span>
+    <span title={option.label}>{option.label}</span>
   </div>
 );
 
